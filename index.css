@@ -1688,7 +1688,7 @@ body {
     }
     .u-container-style div,
     .u-container-style {
-        height: fit-content !important;
+        /* height: fit-content !important; */
     }
 }
 
