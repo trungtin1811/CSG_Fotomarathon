@@ -2,10 +2,112 @@
     --red: #db545a;
 }
 
+#award {
+    background-color: #000000;
+}
+
+.award-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    margin-top: -20px;
+}
+
+.award-container-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.award-item {
+    max-width: 400px;
+    width: 80%;
+    background-color: black;
+    border: 2px solid white;
+    margin: 30px;
+    padding: 20px;
+    height: fit-content;
+}
+
+#footer {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    color: white;
+    padding: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footer img {
+    max-width: 300px;
+    width: 80%;
+    height: 100%;
+    /* margin-right: 200px; */
+}
+
+#footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: fit-content;
+    justify-content: space-between;
+}
+
+#footer ul li {
+    list-style-type: none;
+    margin: 0 24px;
+}
+
+#footer ul a {
+    color: white;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: beVNPro-light;
+    src: url(assets/font/BeVietnamPro-Light.ttf);
+}
+
+.cus-font-bevnpro-light {
+    font-family: beVNPro-light !important;
+}
+
+@font-face {
+    font-family: beVNPro-exbold;
+    src: url(assets/font/BeVietnamPro-ExtraBold.ttf);
+}
+
+.cus-font-bevnpro-exbold {
+    font-family: beVNPro-exbold !important;
+}
+
+@font-face {
+    font-family: beVNPro-med;
+    src: url(assets/font/BeVietnamPro-Medium.ttf);
+}
+
+.cus-font-bevnpro-med {
+    font-family: beVNPro-med !important;
+}
+
+@font-face {
+    font-family: beVNPro-regular;
+    src: url(assets/font/BeVietnamPro-Regular.ttf);
+}
+
+.cus-font-bevnpro-regular {
+    font-family: beVNPro-regular !important;
+}
+
 .logo {
     background-color: white;
     margin: 8px;
     border-radius: 20px;
+}
+
+html {
+    font-family: beVNPro-med;
 }
 
 #timelineSection {
@@ -206,6 +308,8 @@ header p {
     -moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
     box-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
     z-index: 15;
+    font-size: .9em;
+    font-weight: 200;
 }
 
 .direction-l {
@@ -230,6 +334,9 @@ header p {
         color: black;
         width: 80vw;
         margin: 10px auto !important;
+    }
+    #footer {
+        justify-content: center;
     }
 }
 
@@ -347,7 +454,6 @@ header p {
 }
 
 body {
-    font-family: "Staatliches", cursive;
     line-height: 1.4;
 }
 
@@ -558,7 +664,7 @@ body {
 }
 
 .menu-wrap .menu>div {
-    background-color: var(--overlay-color);
+    background-color: rgba(0, 0, 0, 0.9);
     border-radius: 50%;
     width: 400vw;
     height: 400vw;
@@ -885,8 +991,8 @@ body {
 }
 
 .u-section-4 .u-image-1 {
-    height: 124px;
-    width: 214px;
+    height: 93px;
+    width: 160px;
     margin: 0 auto;
 }
 
@@ -1073,7 +1179,7 @@ body {
     background-image: url("images/TAI_4160.jpg");
     min-height: 579px;
     background-position: 50% 50%;
-    opacity: 0.7;
+    opacity: 1;
 }
 
 .u-section-5 .u-image-2 {
@@ -1086,7 +1192,7 @@ body {
     background-image: url("images/TAI_4164.jpg");
     min-height: 579px;
     background-position: 50% 50%;
-    opacity: 0.7;
+    opacity: 1;
     transform: scaleX(-1);
 }
 

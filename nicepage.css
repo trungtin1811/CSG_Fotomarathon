@@ -1,3 +1,7 @@
+.u-layout-row {
+    justify-content: center;
+}
+
 .fr-clearfix::after {
     clear: both;
     display: block;
@@ -166,7 +170,6 @@
 
 .fr-view span.fr-emoticon {
     font-weight: normal;
-    font-family: "Apple Color Emoji", "Segoe UI Emoji", "NotoColorEmoji", "Segoe UI Symbol", "Android Emoji", "EmojiSymbols";
     display: inline;
     line-height: 0;
 }
@@ -216,7 +219,6 @@
     background-clip: padding-box;
     background: #f5f5f5;
     padding: 10px;
-    font-family: "Courier New", Courier, monospace;
 }
 
 .fr-view .fr-class-transparency {
@@ -539,7 +541,6 @@ span.fr-img-caption.fr-view.fr-dii.fr-fir {
 /*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
 
 html {
-    font-family: sans-serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
 }
@@ -651,7 +652,6 @@ code,
 kbd,
 pre,
 samp {
-    font-family: monospace, monospace;
     font-size: 1em;
 }
 
@@ -755,11 +755,6 @@ textarea {
 ::-webkit-file-upload-button {
     -webkit-appearance: button;
     font: inherit;
-}
-
-ul,
-ol {
-    padding-left: 20px;
 }
 
 
@@ -8180,9 +8175,9 @@ section.u-image:not(.u-hover-box),
 }
 
 .u-layout-row>.u-size-12 {
-    flex: 0 0 20%;
+    /* flex: 0 0 20%; */
     max-width: 20%;
-    min-width: 20%;
+    min-width: 15%;
 }
 
 .u-layout-col>.u-size-12 {
@@ -25577,22 +25572,6 @@ a.u-button-style.u-border-20 {
 .u-bottom-left-radius-50 .u-background-effect,
 .u-bottom-left-radius-50:not(.u-hover-box)>.u-container-layout {
     border-bottom-left-radius: 50px !important;
-}
-
-
-/*begin-variables font-family*/
-
-.u-body {
-    font-family: 'Open Sans', sans-serif;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: Roboto, sans-serif;
 }
 
 
