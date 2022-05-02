@@ -35,7 +35,7 @@
     flex-wrap: wrap;
     background-color: black;
     color: white;
-    padding: 30px;
+    padding: 10px 30px;
     justify-content: space-between;
     align-items: center;
 }
@@ -1608,7 +1608,7 @@ body {
 
 .u-section-9 {
     background-image: url("images/TAI_4367.jpg");
-    background-position: 50% 23.79%;
+    /* background: linear-gradient(to right, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 255, 1)), url("images/TAI_4367.jpg"); */
 }
 
 .u-section-9 .u-sheet-1 {
