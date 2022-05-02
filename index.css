@@ -959,14 +959,10 @@ body {
     background-image: none;
 }
 
-.u-section-4 .u-sheet-1 {
-    min-height: 496px;
-}
-
 .u-section-4 .u-group-1 {
     min-height: 152px;
     width: 800px;
-    margin: 60px auto 0;
+    margin: 8px auto 0;
 }
 
 .u-section-4 .u-container-layout-1 {
@@ -983,7 +979,7 @@ body {
 }
 
 .u-section-4 .u-layout-wrap-1 {
-    margin: 36px auto 50px 0;
+    margin: 0 auto 50px 0;
 }
 
 .u-section-4 .u-layout-cell-1 {
