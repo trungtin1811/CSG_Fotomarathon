@@ -22964,11 +22964,11 @@ a.pswp__share--download:hover {
 
 .u-accordion-pane {
     position: relative;
-    display: none;
 }
 
 .u-accordion-pane.u-accordion-active {
-    display: flex;
+    max-height: 300px !important;
+    transition: max-height .3s;
 }
 
 .u-accordion.u-spacing-0 .u-accordion-item:not(:last-child) .u-accordion-link:not(.active),
