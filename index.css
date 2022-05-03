@@ -2,6 +2,215 @@
     --red: #db545a;
 }
 
+.u-section-99 {
+    background-image: none;
+}
+
+.u-section-99 .u-sheet-99 {
+    min-height: 792px;
+}
+
+.u-image-99 {
+    background-image: url("images/TAI_4082.jpg");
+    min-height: 541px;
+    background-position: 50% 50%;
+    height: 100%;
+    object-fit: cover;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.u-section-99 .u-image-99 {
+    width: 520px;
+    height: 665px;
+    margin: 68px auto 0 0;
+}
+
+.u-section-99 .u-text-99 {
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-image: none;
+    margin: -673px 232px 0 570px;
+}
+
+.u-section-99 .u-text-2 {
+    font-style: italic;
+    margin: 20px 0 0 570px;
+}
+
+.u-section-99 .u-btn-99 {
+    font-style: italic;
+    border-style: none none solid;
+    padding: 0;
+}
+
+.u-section-99 .u-accordion-99 {
+    width: 570px;
+    margin: 42px auto 54px 570px;
+}
+
+.u-section-99 .u-accordion-link-99 {
+    font-weight: 700;
+    padding: 20px 30px;
+}
+
+.u-section-99 .u-icon-99 {
+    height: 20px;
+    width: 20px;
+    color: rgb(153, 153, 153) !important;
+}
+
+.u-section-99 .u-accordion-pane-99 {
+    min-height: 150px;
+}
+
+.u-section-99 .u-container-layout-99 {
+    padding: 20px 30px;
+}
+
+.u-section-99 .u-accordion-link-2 {
+    font-weight: 700;
+    padding: 20px 30px;
+}
+
+.u-section-99 .u-icon-2 {
+    height: 20px;
+    width: 20px;
+    color: rgb(153, 153, 153) !important;
+}
+
+.u-section-99 .u-accordion-pane-2 {
+    min-height: 150px;
+}
+
+.u-section-99 .u-container-layout-2 {
+    padding: 20px 30px;
+}
+
+.u-section-99 .u-accordion-link-3 {
+    font-weight: 700;
+    padding: 20px 30px;
+}
+
+.u-section-99 .u-icon-3 {
+    height: 20px;
+    width: 20px;
+    color: rgb(153, 153, 153) !important;
+}
+
+.u-section-99 .u-accordion-pane-3 {
+    min-height: 150px;
+}
+
+.u-section-99 .u-container-layout-3 {
+    padding: 20px 30px;
+}
+
+.u-section-99 .u-accordion-link-4 {
+    font-weight: 700;
+    padding: 20px 30px;
+}
+
+.u-section-99 .u-icon-4 {
+    height: 20px;
+    width: 20px;
+    color: rgb(153, 153, 153) !important;
+}
+
+.u-section-99 .u-accordion-pane-4 {
+    min-height: 150px;
+}
+
+.u-section-99 .u-container-layout-4 {
+    padding: 20px 30px;
+}
+
+@media (max-width: 1199px) {
+    .u-section-99 .u-sheet-99 {
+        min-height: 818px;
+    }
+    .u-section-99 .u-image-99 {
+        width: 404px;
+        height: 698px;
+        margin-top: 60px;
+    }
+    .u-section-99 .u-text-99 {
+        width: auto;
+        margin-top: -698px;
+        margin-right: 0;
+        margin-left: 457px;
+    }
+    .u-section-99 .u-text-2 {
+        width: auto;
+        margin-left: 457px;
+    }
+    .u-section-99 .u-accordion-99 {
+        width: 483px;
+        margin-right: 0;
+        margin-bottom: 60px;
+        margin-left: auto;
+    }
+}
+
+@media (max-width: 991px) {
+    .u-section-99 .u-sheet-99 {
+        min-height: 1325px;
+    }
+    .u-section-99 .u-image-99 {
+        height: 675px;
+        margin-right: initial;
+        margin-left: initial;
+        width: auto;
+    }
+    .u-section-99 .u-text-99 {
+        margin-top: 42px;
+        margin-right: auto;
+        margin-left: 0;
+    }
+    .u-section-99 .u-text-2 {
+        margin-right: 260px;
+        margin-left: 0;
+    }
+    .u-section-99 .u-accordion-99 {
+        margin-right: initial;
+        margin-left: initial;
+        width: auto;
+    }
+}
+
+@media (max-width: 767px) {
+    .u-section-99 .u-text-99 {
+        margin-top: 20px;
+        margin-right: 0;
+        margin-left: 202px;
+    }
+    .u-section-99 .u-text-2 {
+        margin-right: 0;
+        margin-left: 202px;
+    }
+}
+
+@media (max-width: 575px) {
+    .u-section-99 .u-sheet-99 {
+        min-height: 1179px;
+    }
+    .u-section-99 .u-image-99 {
+        height: 414px;
+        width: auto;
+        margin-right: initial;
+        margin-left: initial;
+    }
+    .u-section-99 .u-text-99 {
+        margin-top: 33px;
+        margin-left: 2px;
+    }
+    .u-section-99 .u-text-2 {
+        margin-left: 2px;
+    }
+}
+
 #award {
     background-color: #000000;
 }
