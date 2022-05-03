@@ -69,17 +69,17 @@
 }
 
 .u-section-99 .u-container-layout-99 {
-    padding: 20px 30px;
+    padding: 10px 30px;
 }
 
 .bx-chevron-down {
     transform: rotate(0) translateX(0);
-    transition: transform .3s;
+    /* transition: transform .3s; */
 }
 
 .active .bx-chevron-down {
     transform: rotate(180deg) translateX(-20%)!important;
-    transition: transform .3s;
+    /* transition: transform .3s; */
 }
 
 .u-section-99 .u-accordion-link-2 {
@@ -100,7 +100,7 @@
 }
 
 .u-section-99 .u-container-layout-2 {
-    padding: 20px 30px;
+    padding: 10px 30px;
 }
 
 .u-section-99 .u-accordion-link-3 {
@@ -121,7 +121,7 @@
 }
 
 .u-section-99 .u-container-layout-3 {
-    padding: 20px 30px;
+    padding: 10px 30px;
 }
 
 .u-section-99 .u-accordion-link-4 {
@@ -142,7 +142,7 @@
 }
 
 .u-section-99 .u-container-layout-4 {
-    padding: 20px 30px;
+    padding: 10px 30px;
 }
 
 @media (max-width: 1199px) {
